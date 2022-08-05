@@ -165,3 +165,6 @@ footer .contact-box {
   display: inline-block;
   font-weight: 400;
 }
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
