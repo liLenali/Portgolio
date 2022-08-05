@@ -1,0 +1,131 @@
+:root {
+  --primary-color: #5f2c39;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --gradient: linear-gradient(to bottom, rgb(187, 129, 129) 0%, #d8d8da 100%);
+}
+
+body {
+  margin-top: 100px;
+  background: var(--gradient);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-weight: 800;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgba(0, 0, 0);
+}
+
+.shadow-xl {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-color {
+  background-color: var(--primary-color);
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  background-color: #91414c;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  background-color: #91414c;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 26px;
+    text-align: center;
+    color: #91414c;
+  }
+
+  .footer {
+    display: none;
+  }
+}
