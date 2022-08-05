@@ -142,6 +142,7 @@ a:hover {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 26px;
 }
 .content {
   text-align: center;
@@ -167,4 +168,7 @@ footer .contact-box {
 }
 .mb-5 {
   margin-bottom: 3rem !important;
+}
+.btn-branding:hover {
+  color: white;
 }
